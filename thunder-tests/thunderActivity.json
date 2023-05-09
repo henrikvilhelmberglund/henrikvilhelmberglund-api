@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "dbd37aba-577c-465a-8ba3-e3e92a34844f",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://henrikvilhelmberglund-api.vercel.app/api/posts",
+    "url": "https://henrikvilhelmberglund-api.vercel.app/api/posts",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-09T17:53:51.460Z",
+    "modified": "2023-05-09T17:53:51.460Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
