@@ -1,7 +1,7 @@
 <script>
 	import "@unocss/reset/antfu.css";
 	import Nav from "$lib/Nav.svelte";
-	const routes = [{ link: "api-documentation", display: "API Documentation" }];
+	const routes = [{ link: "/api-documentation", display: "API Documentation" }];
 </script>
 
 <Nav {routes} level={1} />
