@@ -6,8 +6,8 @@
 </script>
 
 <main class="[&>*]:m-4">
-	<h1 class="text-3xl">Blog</h1>
-	<div class="flex items-center justify-center gap-12">
+  <div class="flex items-center justify-center gap-12">
+    <h1 class="text-3xl">Blog</h1>
 		{#each data.posts as post}
 			<div class="flex w-[60%] items-center bg-slate-300 p-4">
 				<h2 class="text-2xl">{post.title}</h2>
