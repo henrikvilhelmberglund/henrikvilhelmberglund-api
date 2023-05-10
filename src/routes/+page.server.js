@@ -15,6 +15,8 @@ export async function load() {
 	result.forEach((item) => {
 		item._id = item._id.toString();
 	});
+	// console.log(result)
 
+	// return { posts: [] };
 	return { posts: result };
 }
