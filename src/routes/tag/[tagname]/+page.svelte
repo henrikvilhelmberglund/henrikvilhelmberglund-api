@@ -15,7 +15,7 @@
 				<p class="text-lg">{post.content}</p>
 				<div class="flex flex-row gap-2 self-end pt-9">
 					{#each post.tags as tag}
-						<a class="rounded-2xl bg-white p-1" href="/api/posts/?tag={tag}">
+						<a class="rounded-2xl bg-white p-1" href={tag}>
 							#{tag}
 						</a>
 					{/each}
