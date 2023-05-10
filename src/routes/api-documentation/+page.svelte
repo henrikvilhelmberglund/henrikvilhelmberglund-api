@@ -56,22 +56,25 @@
 </script>
 
 <main class="[&>*]:m-4">
-	<h1 class="text-4xl">API Documentation</h1>
+	<h1 class="text-center text-4xl">API Documentation</h1>
 	{#each api as route}
-		<div class="flex-col pb-4">
-			<div class="w-[30%] flex-row-reverse justify-end gap-6">
-				<h2 class="text-2xl">{route.title}</h2>
-				<span
-					class:bg-blue-400={route.method === "GET"}
-					class:bg-violet-400={route.method === "POST"}
-					class:bg-fuchsia-400={route.method === "PUT"}
-					class:bg-rose-400={route.method === "DELETE"}
-					class="w-fit rounded p-1">{route.method}</span>
+		<div class="flex-row">
+			<div class="w-[39%]" />
+			<div class="flex-col items-center pb-4">
+				<div class="w-fit flex-row-reverse gap-7 self-start">
+					<h2 class="text-2xl">{route.title}</h2>
+					<span
+						class:bg-blue-400={route.method === "GET"}
+						class:bg-violet-400={route.method === "POST"}
+						class:bg-fuchsia-400={route.method === "PUT"}
+						class:bg-rose-400={route.method === "DELETE"}
+						class="w-fit rounded p-1">{route.method}</span>
+				</div>
+				<p>{route.link}</p>
+				{#if route.method === "POST" || route.method === "PUT"}
+					<pre>{route.format}</pre>
+				{/if}
 			</div>
-			<p>{route.link}</p>
-			{#if route.method === "POST" || route.method === "PUT"}
-				<pre>{route.format}</pre>
-			{/if}
 		</div>
 	{/each}
 </main>
