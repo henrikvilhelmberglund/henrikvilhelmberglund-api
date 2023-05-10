@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "_id": "69e41ef2-5751-482f-b6dc-70c6ff9eefa6",
+    "colId": "08e5338d-3da1-4a97-aebf-10ec4ba3bac9",
+    "containerId": "",
+    "name": "Get all posts",
+    "url": "http://[::]:5173/api/posts",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-05-10T14:26:50.400Z",
+    "modified": "2023-05-10T14:26:53.515Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2c045ac5-1d07-419c-9853-d037fbf98fae",
+    "colId": "08e5338d-3da1-4a97-aebf-10ec4ba3bac9",
+    "containerId": "",
+    "name": "Get posts with tag",
+    "url": "http://[::]:5173/api/posts?tag=meditation",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-05-10T14:27:05.669Z",
+    "modified": "2023-05-10T14:27:21.583Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tag",
+        "value": "meditation",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

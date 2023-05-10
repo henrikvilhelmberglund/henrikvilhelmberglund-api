@@ -12,5 +12,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "082ac2da-21d8-412a-82ac-d48d5dbb85b3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5173/api/posts?tags=meditation",
+    "url": "http://[::]:5173/api/posts",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-10T14:15:31.926Z",
+    "modified": "2023-05-10T14:26:07.851Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

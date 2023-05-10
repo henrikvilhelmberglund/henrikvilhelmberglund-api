@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "_id": "08e5338d-3da1-4a97-aebf-10ec4ba3bac9",
+    "colName": "NodeIsBroken",
+    "created": "2023-05-10T14:26:43.353Z",
+    "sortNum": 10000,
+    "folders": []
+  }
+]
