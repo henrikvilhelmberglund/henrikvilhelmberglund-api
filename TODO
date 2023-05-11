@@ -1,1 +1,3 @@
+☐ rewrite using API for everything instead of form actions (or call API from form action)
 ☐ latest should get latest date, not sort by ID
+☐ add alias for hooks.server.js location (src)
