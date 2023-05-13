@@ -1,2 +1,4 @@
+☐ latest should get latest date, not sort by ID
 ☐ add thingies from other repo
+☐ add alias for hooks.server.js location (src)
 ☐ add support for BSON and not just /1 /2 etc
